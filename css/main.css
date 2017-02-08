@@ -9,14 +9,38 @@ body {
 }
 
 h1 {
-	font-family: 'Cinzel', serif;
-	text-align: center;
-	color: white;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: white;
 }
 
 .round {
-	background-color: #A67C52;
-	border-radius: 10px;
-	border: 1px solid #fff;
-	height: 200px;
+    background-color: #A67C52;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    min-height: 200px;
+    margin-bottom: 1em;
+    /* position: relative; */
+}
+
+label {
+    color: #FFF;
+    /* margin-bottom: .2em; */
+    /* margin-top: .5em; */
+    margin-left: 1em;
+    display: block;
+}
+
+input, select {
+    margin-top: 0px;
+    margin-bottom: .7em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 90%;
+    display: block;
+}
+
+form {
+    margin-top: 20px;
+    position: inherit;
 }
