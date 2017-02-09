@@ -44,3 +44,7 @@ form {
     margin-top: 20px;
     position: inherit;
 }
+
+.spacer {
+    margin-top: 5px;
+}
